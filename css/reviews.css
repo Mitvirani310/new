@@ -1,0 +1,102 @@
+/*--reviews--*/
+
+.review h2 {
+    font-size: 3em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+.column-1 {
+    background: #eee;
+    padding: 1em;
+}
+
+.column-1 h4 {
+    font-size: 1.2em;
+    margin: 0.8em 0 0.5em;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.column-1 h4 a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+.column-1 h4 a:hover {
+    color: #8fbf00;
+}
+
+.column-1 p {
+    color: #2d2d2d;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.review-md1 {
+    padding: 3em 0 0;
+}
+
+
+/*--//reviews--*/
+
+@media(max-width:768px) {
+    .sed-md {
+        width: 33.3%;
+        float: left;
+    }
+    .column-1 h4 {
+        font-size: 1em;
+    }
+    .review-md1 {
+        padding: 2em 0 0;
+    }
+}
+
+@media(max-width:640px) {
+    .sed-md {
+        padding: 0 10px;
+    }
+    .review h2,
+    .games h2,
+    .blog h2,
+    .contact h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media(max-width:480px) {
+    .sed-md {
+        width: 100%;
+        margin-top: 2em;
+    }
+    .review-md1 {
+        padding: 0em 0 0;
+    }
+    .column-1 img {
+        width: 100%;
+    }
+    .md-in {
+        width: 100%;
+    }
+}
+
+@media(max-width:320px) {
+    .sed-md {
+        width: 100%;
+        margin-top: 1.5em;
+        padding: 0;
+    }
+    ul.wmuSliderPagination {
+        width: 268px;
+        margin: 0 0em 0 0;
+    }
+    h2.new {
+        font-size: 1.1em;
+        padding: 0;
+    }
+    h2.new:after,
+    h2.new:before {
+        width: 74px;
+    }
+}
